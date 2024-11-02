@@ -22,7 +22,7 @@ export default function ZoomableImage({
                     <Dialog key={index}>
                         <DialogTrigger asChild>
                             <div className='relative'>
-                                <img
+                                <Image
                                     src={`/gallery/image-${index + 1}.jpeg`}
                                     alt="Gallery Image 1"
                                     width="300"
